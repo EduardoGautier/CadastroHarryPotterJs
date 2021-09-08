@@ -1,0 +1,95 @@
+*{margin: 0; padding: 0;}
+
+h1 {
+    font-family: Arial;
+    margin-left: 30%;
+    margin-bottom: 3%;
+}
+
+h2 {
+    font-family: Arial;
+    margin-bottom: 3%;
+}
+
+body > table {
+    width: 80%;
+    font-family: Arial;
+    margin-left: 10%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table.list {
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 30%;
+    background-color: #32CD32;
+    color: #ffffff;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: left;
+}
+
+a{
+    width: 10%;
+    background-color: #1E90FF;
+    color: #ffffff;
+    padding: 5px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label.validation-error{
+    color: red;
+    margin-left: 5px;
+}
+
+.hide{
+    display: none;
+}
+
+select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.adjustment {
+    margin-top: 3%;
+}
